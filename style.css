@@ -108,8 +108,8 @@ img {
     height: 500px;
     width: 350px;
     background: transparent;
-  border: 2.5px solid rgba(199, 195, 195, 0.5);
-  backdrop-filter: blur(15px);
+    border: 2.5px solid rgba(199, 195, 195, 0.5);
+    backdrop-filter: blur(15px);
   }
   .choice{
    height: 25px;
@@ -128,5 +128,10 @@ img {
   }
   #msg {
     font-size: 17px;
+  }
+  body {
+    background-image: url(./image/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
