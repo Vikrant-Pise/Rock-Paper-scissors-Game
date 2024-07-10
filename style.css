@@ -107,6 +107,9 @@ img {
     margin-top: 35px;
     height: 500px;
     width: 350px;
+    background: transparent;
+  border: 2.5px solid rgba(199, 195, 195, 0.5);
+  backdrop-filter: blur(15px);
   }
   .choice{
    height: 25px;
